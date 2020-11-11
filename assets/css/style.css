@@ -376,8 +376,12 @@
 		font-size: 15px;
 		border-radius: 5px;
 	}
+	.form-group .form-control:focus {
+		border: 1px #E8126B solid !important;
+	}
 	.form-group select{
 		padding: 15px 10px !important;
+		background: #fff !important;
 	}
 	.form-group select:required:invalid {
 		color: #BDBDBD ;
