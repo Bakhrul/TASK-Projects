@@ -639,6 +639,12 @@
 		.alert-box {
 			font-size: 13px !important;
 		}
+		.form-group label{
+			font-size: 13px !important;
+		}
+		.form-group .sub-label{
+			font-size: 11px !important;
+		}
 	}
 
 	/* alert component */
