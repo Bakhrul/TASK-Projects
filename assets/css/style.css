@@ -426,7 +426,7 @@
 		outline: none;
 		padding: 15px;
 		border: 1px #BDBDBD solid;
-		color: #1A1818;
+		color: #1A1818;		
 		font-size: 15px;
 		border-radius: 5px;
 	}
@@ -441,7 +441,7 @@
 
 	.form-group select {
 		padding: 15px 10px !important;
-		-moz-appearance: none;
+		-moz-appearance: none;		
 		padding-right: 30px !important;
 		-webkit-appearance: none;
 		appearance: none;
