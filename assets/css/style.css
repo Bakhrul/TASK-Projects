@@ -373,7 +373,7 @@
 	.navbar-custom .nav-group .nav-item a .logo-brand {
 		width: 84px;
 		height: 62px;
-		padding-right: 10px;
+		margin-right: 10px;
 	}
 
 	.navbar-custom .nav-group .nav-brand a {
