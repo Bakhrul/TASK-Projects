@@ -441,9 +441,18 @@
 
 	.form-group select {
 		padding: 15px 10px !important;
-		background: #fff !important;
+		-moz-appearance: none;
+		padding-right: 30px !important;
+		-webkit-appearance: none;
+		appearance: none;
+		background-image: url('../images/polygon.png');
+		background-repeat: no-repeat, repeat;
+		background-position: right .9em top 50%, 0 0;
+		background-size: .65em auto, 100%;
 	}
-
+	select::-ms-expand {
+		display: none;
+	  }
 	.form-group select:required:invalid {
 		color: #BDBDBD;
 	}
@@ -1174,7 +1183,7 @@
 	}
 
 	.navigation-bottom-mobile {
-		position: fixed;
+		position: sticky;
 		bottom: 0;
 		width: 100%;
 		display: none !important;
@@ -1234,7 +1243,8 @@
 		.navigation-bottom-mobile .navigation-bottom-group .navigation-bottom-element .text-navigation {
 			font-size: 13px;
 		}
-		.box-content{
+
+		.box-content {
 			padding: 30px 15px !important;
 		}
 	}

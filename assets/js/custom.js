@@ -1,9 +1,3 @@
-var child = document.querySelector(".navigation-bottom-mobile");
-var parent = document.querySelector(".footer-copy-with-navigation-bottom");
-
-var childHeight = parseInt(window.getComputedStyle(child).height) + "px";
-parent.style.marginBottom = childHeight;
-
 function showHidePassword(evt) {
 
     var input = document.getElementById("input-password");
